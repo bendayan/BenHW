@@ -12,6 +12,16 @@ cir{
 }
 
 
+
+.withBorder{
+	
+	outline-style: solid;
+	outline-color: black;
+	outline-width: 50 px;
+	
+	
+}
+
 h1{
     background-color:#3c384b;
     color:yellow;
