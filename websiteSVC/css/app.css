@@ -1,0 +1,41 @@
+
+th {
+    background-color:pink;
+    padding: 35px;
+    border-bottom: 10px solid rgb(139, 0, 35);
+    color:blue;
+    font-size: 1.5em;
+    
+}
+
+
+h1{
+    background-color:blue;
+  background-attachment:scroll;
+  
+background-repeat: repeat-x;
+    color:yellow;
+   
+}
+
+p {
+    background-color: purple;
+      color:yellow;
+     
+      max-width: 900px;
+      border-style: dashed;
+      padding: 35px;
+
+      margin-right: 10px;
+}
+#or{
+    background-color:rgb(255, 0, 0);
+    max-width: 900px;
+    border-bottom: 10px solid rgb(28, 139, 0);
+    color:white;
+    border-style: dotted;
+    padding-left: 800;
+    font-size: 1.5em;
+
+}
+
