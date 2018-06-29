@@ -1,0 +1,73 @@
+#styleDiv1{
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  transition-property: width;
+  transition-property: transform;
+  transition-duration: 2s;
+  transition-delay: 2s;
+  transition-timing-function: linear;
+  margin-bottom: 50px;
+
+
+}
+#styleDiv1:hover{
+  width: 300px;
+  height: 300px;
+transform: rotate(130deg);
+
+}
+#styleDiv2{
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  transition-property: width;
+  transition-property: transform;
+  transition-duration: 2s;
+  transition-delay: 2s;
+  transition-timing-function: ease-in;
+  margin-bottom: 50px;
+
+}
+#styleDiv2:hover{
+  width: 300px;
+  height: 300px;
+transform: rotate(130deg);
+
+}
+#styleDiv3{
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  transition-property: width;
+  transition-property: transform;
+  transition-duration: 2s;
+  transition-delay: 2s;
+  transition-timing-function: ease-out;
+  margin-bottom: 50px;
+
+}
+#styleDiv3:hover{
+  width: 300px;
+  height: 300px;
+transform: rotate(130deg);
+
+}
+#styleDiv4{
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  transition-property: width;
+  transition-property: transform;
+  transition-duration: 2s;
+  transition-delay: 2s;
+  transition-timing-function: ease;
+
+
+}
+#styleDiv4:hover{
+  width: 300px;
+  height: 300px;
+transform: rotate(130deg);
+
+}

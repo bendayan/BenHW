@@ -1,0 +1,41 @@
+
+
+
+#light1{
+width: 200px;
+height: 200px;
+
+transition-property: width;
+transition-property: height;
+animation-name: lightoff;
+animation-delay: 1s;
+transition-timing-function: linear;
+transition-duration: 6s;
+animation-duration: 6s;
+position: relative;
+object-fit: contain;
+
+}
+
+
+@keyframes lightoff {
+  0%{ left: 0px; top:0px;}
+  25%{top:400px;left: 400px;}
+
+}
+
+rect{
+  width: 100px;
+  height: 100px;
+}
+
+
+#light1:hover{
+
+  width: 500px;
+  height: 500px;
+  filter: brightness(80%);
+  filter: invert(30%);
+  
+  
+  }

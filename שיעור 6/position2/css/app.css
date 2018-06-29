@@ -1,0 +1,62 @@
+.image {
+                                
+    width: 700px;
+  
+    height: 700px;
+  
+  }
+  
+  
+  
+  .overlay {
+  
+    position: absolute;
+  
+    top: 0;
+  
+    bottom: 0;
+  
+    left: 0;
+  
+    right: 0;
+  
+    height: 730px;
+  
+    width: 730px;
+  
+    opacity: 0;
+  
+    transition: 2s ease;
+  
+    background-color: #008CBA;
+  
+  }
+  
+  
+  
+  .container:hover .overlay {
+  
+    opacity: 1;
+  
+  }
+  
+  
+  
+  .text {
+  
+    color: white;
+  
+    font-size: 20px;
+  
+    position: absolute;
+  
+    top: 50%;
+  
+    left: 50%;
+  
+   
+  
+    
+  
+  }
+  

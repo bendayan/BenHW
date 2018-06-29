@@ -1,0 +1,23 @@
+#img1 {
+    width: 500px;
+    height: 500px;
+    filter: opacity(50%);
+    
+  
+    
+
+}
+
+#left1{
+   
+   position: absolute;
+   top: 20px; left: 20px;
+
+}
+
+#left2{
+    position: absolute;
+    top: 20px; left:450px; 
+
+}
+
