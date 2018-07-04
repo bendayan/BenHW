@@ -1,0 +1,22 @@
+#fillImg{
+  width: 200px;
+   height:500px;
+   object-fit: fill;
+}
+#containImg{
+  width: 200px;
+   height:500px;
+   object-fit: contain;
+}
+
+#coverImg{
+  width: 200px;
+   height:500px;
+   object-fit: cover;
+}
+
+#noneImg{
+  width: 200px;
+   height:500px;
+   object-fit: none;
+}

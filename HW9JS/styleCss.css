@@ -1,0 +1,23 @@
+#example {
+ color: rgb(204, 12, 12);
+  
+font-size:50px;
+
+}
+
+
+.triangle-up {
+	width:20px;
+    height: 50px;
+
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 50px solid rgb(123, 24, 252);
+}
+
+#tableshape{
+    width: 400px;
+    height: 800px;
+    border-color: black;
+}
+

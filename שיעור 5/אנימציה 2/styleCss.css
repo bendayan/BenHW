@@ -1,0 +1,26 @@
+#styleDiv1{
+height: 100px;
+width: 100px;
+
+
+animation-name: background1;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+position: relative;
+animation-timing-function: ease-in;
+animation-direction: alternate-reverse;
+}
+
+@keyframes background1 {
+0%{fill: black;left: 0px; top:0px;}
+25%{fill: green;top:400px;left: 400px;}
+50%{fill: blue;top:0px;left: 400px;}
+75%{fill: red;left:0;top:400px}
+100%{fill: red;left:0px;top:0px}
+
+}
+
+rect{
+  width: 100px;
+  height: 100px;
+}
