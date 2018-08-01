@@ -1,0 +1,61 @@
+<html>
+<head>
+  <link rel="stylesheet" href="styleCss.css" type="text/css">
+</head>
+<body>
+
+
+    <div id="p1" >
+      <button id="bbuttonspic" onmouseup="ViewControlsfunc()">Show Controls</button>
+        <button id="ppdown"  onmouseup="func1()" >View picture</button>
+
+        <input type="text" id="IdColorInput">
+        <button id="IDButtonColor" onclick="func2()">Change frame color</button>
+      
+     
+        
+       </div>
+<div id="divPic">
+         <img src="" id="idpic2" width="300" height="300" style="position: relative;">
+</div>
+<div id="buttonMoveWithPic">
+
+<table id="tablewidth">
+  <tr>
+    <td>
+
+<button id="Bwithplus" onmouseover="func3()">+</button>
+ 
+<button id="Bwithminus" onmouseover="func3minus()">-</button>
+</td>
+  </tr>
+  </table>
+  
+  <table id="tablemove">
+      <tr>
+        <td>
+    
+    <button id="Bmoveup" onmouseover="funcmoveup1()">Up</button>
+     
+    <button id="Bmovedown" onmouseover="funcmovedown()">Down</button>
+    </td>
+      </tr>
+      <tr>
+        <td>
+            <button id="Bmoveleft" onmouseover="funcmoveleft1()">Left</button>
+     
+    <button id="Bmoveright" onmouseover="funcmoveright1()">Right</button>
+        </td>
+      </tr>
+</table>
+</div>
+<select id="selectb" onchange="selectedImage();" >
+  <option >img1</option>
+  <option >img2</option>
+  <option >img3</option>
+  <option >img4</option>
+</select>
+<script type="text/javascript" src="javaScriptFile.js"> </script>
+</body>
+
+</html>
