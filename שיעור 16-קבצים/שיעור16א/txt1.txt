@@ -1,0 +1,4 @@
+FullName,Age,car
+Ben dayan,25,yes
+or anaki ,28,yes
+gal or,26,no
