@@ -1,0 +1,81 @@
+#mainPageSection{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+    left: 40%;
+}
+#div1{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+
+height: 150px;
+}
+#toid{
+    position: absolute;
+   
+    left: 1%;
+  
+    
+    
+    }
+    #idse{
+        position: absolute;
+   
+    left: 2.5%;
+    }
+    #div3{
+   text-align: center;
+    }
+  
+    
+    #div3{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 50%;
+    }
+    button{
+        font-weight: bold;
+        width: 80px;
+        height: 40px;
+        border-radius: 5px;
+    }
+    #lll{
+      
+        width: 30%;
+        height: 40%;
+border-radius: 5px;
+        background-color:rgba(230, 233, 236, 0.705);
+       list-style-type: none;
+    
+    margin-bottom: 1%;
+    text-align: left;
+    }
+    #detailscoins{
+        display: none;
+    }
+    #updatetable{
+        display: none;
+    }
+    #btnbb{
+        font-weight: bold;
+        background-color: rgb(36, 36, 245);
+    }
+    #btnbb1{
+        color: white;
+        background-color: rgb(36, 36, 245);
+        font-weight: bold;
+    }
+    #detailscoins{
+        width: 55%;
+        position: absolute;
+        top:60%;
+        left: 35%;
+    }
+    #updatetable{
+        position: absolute;
+        
+        left: 40%;
+    }
+ 

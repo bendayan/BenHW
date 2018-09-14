@@ -1,0 +1,67 @@
+<section id="mainPageSection">
+
+    <div id="div1">
+      <tr>
+        <td>
+    <h1>Exchange</h1><br><br>
+    <label>From:</label>
+        <select id="select-option" [(ngModel)]="dropdownSelectedFrom">
+        <option value="Shekel">Shekel</option>
+        <option value="Dolar">Dolar</option>
+        <option value="Euro">Euro</option>
+      </select>
+      <input type="number" [(ngModel)]="inputCoin"><br>
+  
+    <br>
+
+    <label id="toid">To:</label>  <select id="idse" [(ngModel)]="dropdownSelectedTo"> <option id="sh" value="Shekel">Shekel</option>
+                         <option value="Dolar">Dolar</option>
+                         <option value="Euro">Euro</option>
+                     </select><br><br>
+                 </td>
+                    </tr>    
+                       <br>
+    <button (click)="this.calcex()" >start</button>
+    
+  <br><br>
+<button id="btnbb" (click)="funcupdatetable()">Update</button> 
+<a href="https://www.facebook.com/"><button id="btnbb1">facebook</button></a>
+<button id="btnbb" (click)="funcdetailscoins()">list coins</button><br>
+
+  </div>
+
+    </section>
+    <section id="detailscoins">
+      <ul >
+         
+        <li id="lll" *ngFor="let savedCalc of coinsCalcArr" >
+      {{savedCalc}}
+   
+        </li>
+      </ul>
+     
+      
+      
+          
+        </section>
+        <section id="updatetable">
+          <h1>Update</h1>
+          
+          <table id="tb1" border="1">
+              <tr>
+                <th>Type</th>
+                <th>value</th>
+              </tr>
+              <tr *ngFor="let coin of arrcoin">
+                <td> {{ coin._typecoin }} </td>
+                <td> {{ coin._valuecoin }} </td>
+              </tr>
+            </table>
+             <label>Type</label> <input [(ngModel)]="newCoinType"placeholder="enter new coin type"><br><br>
+             <label>  New-Value</label><input [(ngModel)]="newCoinValue" placeholder="enter new coin value"><br><br>
+   <button id="btnbb1" (click)="this.funcbackbtn()">back</button> 
+      <button id="btnbb1" (click)="updateCoin()">Update</button>   
+          </section>
+    
+
+    
