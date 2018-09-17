@@ -45,9 +45,19 @@ result:number=0;
     document.getElementById("mainPageSection").style.display="block";
   }
   updateCoin(){
-    this.c1=new coin(this.newCoinType,this.newCoinValue);
-    this.arrcoin.push(this.c1);
+  
+  for(let i=0; i<this.arrcoin.length; i++){
+    if(this.newCoinType==this.arrcoin[i]._typecoin){
+      this.arrcoin[i]._valuecoin=this.newCoinValue;
+      return;
+    }
+  
   }
+  this.c1=new coin(this.newCoinType,this.newCoinValue);
+  this.arrcoin.push(this.c1);
+
+  }
+
   
 
 
